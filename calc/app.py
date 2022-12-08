@@ -67,4 +67,4 @@ def use_math(action):
     b=int(requst.args.get("b"))
     answer=operators[action](a,b)
 
-    return str(result)
+    return str(answer)
